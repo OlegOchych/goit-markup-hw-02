@@ -1,0 +1,278 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+button {
+    cursor: pointer;
+}
+
+:root{
+    --accent-color:#212121;
+    --color-blue: #2196F3;
+    --color-grey:#757575;
+    --color-white: #ffffff;
+}
+body{
+    font-family: roboto , sans-serif;
+}
+
+.logo{
+font-family: Raleway;
+font-weight:700;
+font-size: 26px;
+line-height: 1.19em;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.logo-blue{
+    color: var(--color-blue)
+}
+.link-header{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14em;
+letter-spacing: 0.02em;
+}
+.link-grey{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14em;
+letter-spacing: 0.02em;
+}
+.link-header{
+    color: var(--accent-color);
+}
+a.link-header:focus{
+    color: var(--color-blue)
+}
+a.link-header:hover{
+    color: var(--color-blue)
+}
+.link-grey{
+    color: var(--color-grey)
+}
+a.link-grey:focus{
+    color: var(--color-blue)
+}
+a.link-grey:hover{
+    color: var(--color-blue)
+}
+
+
+/*--------- HERO --------*/
+
+.section-hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36em;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--color-white)
+}
+.hero-btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87em;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+border-style: none;
+border-radius: 4px;
+background-color: var(--color-blue);
+color: var(--color-white)
+}
+
+/*---------FEATURES---------*/
+
+.title-features{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color)
+}
+.text-features{
+font-size: 14px;
+line-height: 1.71em;
+letter-spacing: 0.03em;
+color: var(--color-grey)
+}
+
+/*--------WHAT-WE-DO--------*/
+
+.what-we-do-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16em;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--acent-color)
+}
+
+/*-------OUR-TEAM----------*/
+
+.our-team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16em;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--acent-color)
+}
+.our-team-names{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18em;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--acent-color)
+}
+.our-team-job{
+font-size: 16px;
+line-height: 1.18em;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-grey)
+}
+
+/*-------------FOOTER---------*/
+
+.footer{
+    background-color:#2F303A;
+}
+.logo-footer{
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19em;
+color: var(--color-white)
+}
+.link-footer-street{
+    font-style: normal;
+    font-size: 14px;
+line-height: 1.71em;
+letter-spacing: 0.03em;
+color: var(--color-white)
+}
+.link-footer{
+font-style: normal;
+font-size: 14px;
+line-height: 1.71em;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+a.link-footer-street:hover{
+    color: var(--color-blue)
+}
+a.link-footer-street:focus{
+    color: var(--color-blue)
+}
+a.link-footer:hover{
+    color: var(--color-blue)
+}
+a.link-footer:focus{
+    color: var(--color-blue)
+}

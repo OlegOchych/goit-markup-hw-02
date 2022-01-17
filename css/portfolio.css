@@ -166,13 +166,11 @@ a.link-grey:hover{
 .btn{
     border-style: none;
     border-radius: 4px;
-}
-.btn-text{
-font-weight: 500;
+    font-weight: 500;
 font-size: 16px;
 line-height: 26px;
+letter-spacing: 0.03em;
 }
-
 .list{
 list-style: none;
 }
